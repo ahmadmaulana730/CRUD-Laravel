@@ -13,5 +13,5 @@
 
 route::get('/', 'PagesController@home');
 route::get('/about', 'PagesController@about');
-route::get('/mahasiswa', 'PagesController@index');
-route::get('/mahasiswa_students', 'PagesController@index');
+route::get('/mahasiswa', 'MahasiswaController@index');
+route::get('/students', 'Students_Controller@index');

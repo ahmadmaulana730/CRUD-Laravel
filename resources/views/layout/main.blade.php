@@ -21,8 +21,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link" href="{{url ('/about')}}">about</a>
+        <a class="nav-item nav-link" href="{{url ('/mahasiswa')}}">mahasiswa</a>
+        <a class="nav-item nav-link" href="{{url ('/student')}}">student</a>
         <a class="nav-item nav-link disabled" href="#">Disabled</a>
       </div>
     </div>
