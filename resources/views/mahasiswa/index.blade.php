@@ -21,7 +21,7 @@
                 <tbody>
                     @foreach($mahasiswa as $mhs)
                     <tr>
-                        <th scope="row">{{$loop->interation}}</th>
+                        <th scope="row">{{$loop->iteration}}</th>
                         <td>{{$mhs->nama}}</td>
                         <td>{{$mhs->nrp}}</td>
                         <td>{{$mhs->email}}</td>
